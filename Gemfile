@@ -21,6 +21,10 @@ group :development do
   gem 'spring-watcher-listen', '2.0.0'
 end
 
+group :production do
+  gem 'pg', '0.18.4'
+end
+
 =begin
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
